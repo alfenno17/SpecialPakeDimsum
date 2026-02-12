@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Khusus Untukmu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card" id="mainCard">
+        <div id="inputSection">
+            <h1>Halooo.. 👀</h1>
+            <p>Boleh tahu siapa nama orang paling spesial di sini?</p>
+            <input type="text" id="userName" placeholder="Ketik namamu..." autocomplete="off">
+            <br>
+            <button id="btnSubmit" onclick="tampilkanUcapan()">Buka Pesan ❤️</button>
+        </div>
+
+        <div id="greetingSection" class="hidden">
+            <h1>Selamat Valentine,</h1>
+            <span id="nameResult"></span>
+            <p>"Selamat Valentine! Anggap saja ini ucapan ke-365 dari sekian banyak usaha aku buat bikin kamu senyum. Pelan-pelan saja, aku masih di sini kok, nggak ke mana-mana." I love you! 💖</p>
+            <button class="btn-back" onclick="tutupHalaman()">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
